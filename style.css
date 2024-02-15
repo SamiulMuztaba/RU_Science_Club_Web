@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.home{
+    font-family: "Roboto", sans-serif;
+    margin-top: 23.6rem;
+    margin-left: 10rem;
+    display: flex;
+}
+
+.home h1{
+    color: #677FFF;
+    width: 60rem;
+}
+
+.home p{
+    width: 39.00006rem;
+}
+
+.img-box{
+    background-color: #D9D9D9;
+    width: 40rem;
+    height: 30rem;
+    float: left;
+}
