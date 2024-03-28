@@ -16,16 +16,16 @@ body{
     font-size: 1.6rem;
 }
 
-.home{
-    margin-top: 23.6rem;
-    margin-left: 10rem;
-    display: flex;
-}
-
 h1{
     font-size: 3.5rem;
     color: #677FFF;
     width: 60rem;
+}
+
+.home{
+    margin-top: 23.6rem;
+    margin-left: 10rem;
+    display: flex;
 }
 
 .home p{
@@ -71,8 +71,8 @@ h1{
 }
 
 .about button{
-    width: 150px;
-    height: 50px;
+    width: 15rem;
+    height: 5rem;
     border-radius: 1.25rem;
     background: #677FFF;
     color: #ffffff;
@@ -87,5 +87,35 @@ h1{
 .about button:hover {
     background: 1.25rem #ffffff;
     color: #677FFF;
-    border: 3px solid #677FFF;
+    border: 0.3rem solid #677FFF;
+}
+
+@media (max-width: 1278px) {
+    .img-box{
+        margin-left: 10rem;
+    }
+}
+
+@media (main-width: 1250px){
+    .img-box2{
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width: 1117px) {
+    .img-box{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1065px) {
+    .img-box{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1065px) {
+    .img-box{
+        display: none;
+    }
 }
